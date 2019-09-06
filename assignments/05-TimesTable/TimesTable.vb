@@ -1,4 +1,4 @@
-﻿Module Module1
+﻿Module TimesTable
 
     Sub Main()
         Dim product As String

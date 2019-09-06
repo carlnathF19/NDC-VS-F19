@@ -22,7 +22,6 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.DisplayLabel = New System.Windows.Forms.Label()
         Me.ExitButton = New System.Windows.Forms.Button()
         Me.UpdateLabelButton = New System.Windows.Forms.Button()
@@ -31,19 +30,10 @@ Partial Class Form1
         Me.RadioIt = New System.Windows.Forms.RadioButton()
         Me.SuspendLayout()
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(148, 206)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(117, 72)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Update &Title"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'DisplayLabel
         '
         Me.DisplayLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DisplayLabel.Location = New System.Drawing.Point(48, 25)
+        Me.DisplayLabel.Location = New System.Drawing.Point(77, 46)
         Me.DisplayLabel.Name = "DisplayLabel"
         Me.DisplayLabel.Size = New System.Drawing.Size(661, 113)
         Me.DisplayLabel.TabIndex = 1
@@ -52,20 +42,20 @@ Partial Class Form1
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(330, 206)
+        Me.ExitButton.Location = New System.Drawing.Point(411, 302)
         Me.ExitButton.Name = "ExitButton"
-        Me.ExitButton.Size = New System.Drawing.Size(136, 72)
+        Me.ExitButton.Size = New System.Drawing.Size(117, 72)
         Me.ExitButton.TabIndex = 2
         Me.ExitButton.Text = "E&xit"
         Me.ExitButton.UseVisualStyleBackColor = True
         '
         'UpdateLabelButton
         '
-        Me.UpdateLabelButton.Location = New System.Drawing.Point(148, 302)
+        Me.UpdateLabelButton.Location = New System.Drawing.Point(207, 302)
         Me.UpdateLabelButton.Name = "UpdateLabelButton"
         Me.UpdateLabelButton.Size = New System.Drawing.Size(117, 72)
         Me.UpdateLabelButton.TabIndex = 3
-        Me.UpdateLabelButton.Text = "Update &Label"
+        Me.UpdateLabelButton.Text = "Update &Language"
         Me.UpdateLabelButton.UseVisualStyleBackColor = True
         '
         'RadioEng
@@ -112,15 +102,12 @@ Partial Class Form1
         Me.Controls.Add(Me.UpdateLabelButton)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.DisplayLabel)
-        Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Button1 As Button
     Friend WithEvents DisplayLabel As Label
     Friend WithEvents ExitButton As Button
     Friend WithEvents UpdateLabelButton As Button

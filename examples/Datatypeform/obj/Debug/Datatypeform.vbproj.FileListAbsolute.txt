@@ -1,0 +1,12 @@
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\examples\Datatypeform\bin\Debug\Datatypeform.exe.config
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\examples\Datatypeform\bin\Debug\Datatypeform.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\examples\Datatypeform\bin\Debug\Datatypeform.pdb
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\examples\Datatypeform\bin\Debug\Datatypeform.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\examples\Datatypeform\obj\Debug\Datatypeform.vbprojAssemblyReference.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\examples\Datatypeform\obj\Debug\Datatypeform.Form1.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\examples\Datatypeform\obj\Debug\Datatypeform.Resources.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\examples\Datatypeform\obj\Debug\Datatypeform.vbproj.GenerateResource.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\examples\Datatypeform\obj\Debug\Datatypeform.vbproj.CoreCompileInputs.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\examples\Datatypeform\obj\Debug\Datatypeform.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\examples\Datatypeform\obj\Debug\Datatypeform.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\examples\Datatypeform\obj\Debug\Datatypeform.pdb
