@@ -96,7 +96,7 @@ Partial Class Wisdom
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Nathan Carlson"
         '
-        'Form1
+        'Wisdom
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -108,8 +108,8 @@ Partial Class Wisdom
         Me.Controls.Add(Me.exitButton)
         Me.Controls.Add(Me.bushButton)
         Me.Controls.Add(Me.Sayings)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "Wisdom"
+        Me.Text = "Words to Live By"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
