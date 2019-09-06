@@ -1,8 +1,7 @@
 ﻿'Assignment: Asg1-3
 'RCET0265
 'Nathan Carlson
-'Wisdom
-
+'Specials
 Public Class Wisdom
     'Changes the Form Label to default
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load

@@ -1,0 +1,12 @@
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\ASG1-5\bin\Debug\ASG1-5.exe.config
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\ASG1-5\bin\Debug\ASG1-5.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\ASG1-5\bin\Debug\ASG1-5.pdb
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\ASG1-5\bin\Debug\ASG1-5.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\ASG1-5\obj\Debug\ASG1-5.vbprojAssemblyReference.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\ASG1-5\obj\Debug\ASG1_5.Resources.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\ASG1-5\obj\Debug\ASG1-5.vbproj.GenerateResource.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\ASG1-5\obj\Debug\ASG1-5.vbproj.CoreCompileInputs.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\ASG1-5\obj\Debug\ASG1-5.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\ASG1-5\obj\Debug\ASG1-5.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\ASG1-5\obj\Debug\ASG1-5.pdb
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\ASG1-5\obj\Debug\ASG1_5.Specials.resources
