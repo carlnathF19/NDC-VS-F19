@@ -3,7 +3,7 @@
 'Nathan Carlson
 'Hello World Program
 
-Public Class Form1
+Public Class HelloWorldForm
     'Procedure for Exiting form.
     Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click
         Me.Close()
