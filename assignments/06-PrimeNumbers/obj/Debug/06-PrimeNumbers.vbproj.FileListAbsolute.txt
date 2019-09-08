@@ -1,0 +1,11 @@
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\06-PrimeNumbers\bin\Debug\06-PrimeNumbers.exe.config
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\06-PrimeNumbers\bin\Debug\06-PrimeNumbers.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\06-PrimeNumbers\bin\Debug\06-PrimeNumbers.pdb
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\06-PrimeNumbers\bin\Debug\06-PrimeNumbers.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\06-PrimeNumbers\obj\Debug\06-PrimeNumbers.vbprojAssemblyReference.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\06-PrimeNumbers\obj\Debug\_06_PrimeNumbers.Resources.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\06-PrimeNumbers\obj\Debug\06-PrimeNumbers.vbproj.GenerateResource.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\06-PrimeNumbers\obj\Debug\06-PrimeNumbers.vbproj.CoreCompileInputs.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\06-PrimeNumbers\obj\Debug\06-PrimeNumbers.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\06-PrimeNumbers\obj\Debug\06-PrimeNumbers.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\06-PrimeNumbers\obj\Debug\06-PrimeNumbers.pdb
