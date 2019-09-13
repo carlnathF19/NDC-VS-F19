@@ -1,0 +1,12 @@
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG2-5\AddressLabel\bin\Debug\AddressLabel.exe.config
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG2-5\AddressLabel\bin\Debug\AddressLabel.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG2-5\AddressLabel\bin\Debug\AddressLabel.pdb
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG2-5\AddressLabel\bin\Debug\AddressLabel.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG2-5\AddressLabel\obj\Debug\AddressLabel.vbprojAssemblyReference.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG2-5\AddressLabel\obj\Debug\AddressLabel.AddressLabel.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG2-5\AddressLabel\obj\Debug\AddressLabel.Resources.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG2-5\AddressLabel\obj\Debug\AddressLabel.vbproj.GenerateResource.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG2-5\AddressLabel\obj\Debug\AddressLabel.vbproj.CoreCompileInputs.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG2-5\AddressLabel\obj\Debug\AddressLabel.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG2-5\AddressLabel\obj\Debug\AddressLabel.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG2-5\AddressLabel\obj\Debug\AddressLabel.pdb
