@@ -33,21 +33,15 @@ Partial Class AddressLabel
         Me.CityLab = New System.Windows.Forms.Label()
         Me.StateLab = New System.Windows.Forms.Label()
         Me.ZipLab = New System.Windows.Forms.Label()
-        Me.AddrLabelLine1 = New System.Windows.Forms.Label()
+        Me.AddrLabel = New System.Windows.Forms.Label()
         Me.State = New System.Windows.Forms.MaskedTextBox()
         Me.ZipCode = New System.Windows.Forms.MaskedTextBox()
         Me.DisplayLabel = New System.Windows.Forms.Button()
         Me.ClearForm = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
-        Me.DisplayLabToolTip = New System.Windows.Forms.ToolTip(Me.components)
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.ClearToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.ExitToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.LabelToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.FieldsToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.AddrLabelLine2 = New System.Windows.Forms.Label()
-        Me.AddrLabelLine3 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -58,6 +52,7 @@ Partial Class AddressLabel
         Me.FirstName.Name = "FirstName"
         Me.FirstName.Size = New System.Drawing.Size(248, 22)
         Me.FirstName.TabIndex = 0
+        Me.ToolTip1.SetToolTip(Me.FirstName, "Pleaser Enter First Name")
         '
         'LastName
         '
@@ -65,6 +60,7 @@ Partial Class AddressLabel
         Me.LastName.Name = "LastName"
         Me.LastName.Size = New System.Drawing.Size(248, 22)
         Me.LastName.TabIndex = 1
+        Me.ToolTip1.SetToolTip(Me.LastName, "Please Enter Last Name")
         '
         'StreetAddr
         '
@@ -72,6 +68,7 @@ Partial Class AddressLabel
         Me.StreetAddr.Name = "StreetAddr"
         Me.StreetAddr.Size = New System.Drawing.Size(248, 22)
         Me.StreetAddr.TabIndex = 2
+        Me.ToolTip1.SetToolTip(Me.StreetAddr, "Please enter street address")
         '
         'City
         '
@@ -79,6 +76,7 @@ Partial Class AddressLabel
         Me.City.Name = "City"
         Me.City.Size = New System.Drawing.Size(248, 22)
         Me.City.TabIndex = 3
+        Me.ToolTip1.SetToolTip(Me.City, "Please enter your City")
         '
         'FirstNameLab
         '
@@ -134,14 +132,14 @@ Partial Class AddressLabel
         Me.ZipLab.TabIndex = 11
         Me.ZipLab.Text = "Zip Code"
         '
-        'AddrLabelLine1
+        'AddrLabel
         '
-        Me.AddrLabelLine1.Location = New System.Drawing.Point(27, 42)
-        Me.AddrLabelLine1.Name = "AddrLabelLine1"
-        Me.AddrLabelLine1.Size = New System.Drawing.Size(642, 21)
-        Me.AddrLabelLine1.TabIndex = 12
-        Me.AddrLabelLine1.Text = "Your Name"
-        Me.LabelToolTip.SetToolTip(Me.AddrLabelLine1, "LabelToolTip")
+        Me.AddrLabel.Location = New System.Drawing.Point(27, 42)
+        Me.AddrLabel.Name = "AddrLabel"
+        Me.AddrLabel.Size = New System.Drawing.Size(601, 170)
+        Me.AddrLabel.TabIndex = 12
+        Me.AddrLabel.Text = "Your Name"
+        Me.ToolTip1.SetToolTip(Me.AddrLabel, "Displays your Address Label")
         '
         'State
         '
@@ -150,6 +148,7 @@ Partial Class AddressLabel
         Me.State.Name = "State"
         Me.State.Size = New System.Drawing.Size(248, 22)
         Me.State.TabIndex = 4
+        Me.ToolTip1.SetToolTip(Me.State, "Please enter State abbreviation")
         '
         'ZipCode
         '
@@ -158,6 +157,7 @@ Partial Class AddressLabel
         Me.ZipCode.Name = "ZipCode"
         Me.ZipCode.Size = New System.Drawing.Size(248, 22)
         Me.ZipCode.TabIndex = 5
+        Me.ToolTip1.SetToolTip(Me.ZipCode, "Please enter Zip Code")
         '
         'DisplayLabel
         '
@@ -166,7 +166,7 @@ Partial Class AddressLabel
         Me.DisplayLabel.Size = New System.Drawing.Size(132, 81)
         Me.DisplayLabel.TabIndex = 7
         Me.DisplayLabel.Text = "Display &Label"
-        Me.DisplayLabToolTip.SetToolTip(Me.DisplayLabel, "DisplayLabToolTip")
+        Me.ToolTip1.SetToolTip(Me.DisplayLabel, "To Display label Press Enter, Alt + L, or click here")
         Me.DisplayLabel.UseVisualStyleBackColor = True
         '
         'ClearForm
@@ -177,7 +177,7 @@ Partial Class AddressLabel
         Me.ClearForm.Size = New System.Drawing.Size(132, 81)
         Me.ClearForm.TabIndex = 8
         Me.ClearForm.Text = "&Clear Form"
-        Me.ClearToolTip.SetToolTip(Me.ClearForm, "ClearToolTip")
+        Me.ToolTip1.SetToolTip(Me.ClearForm, "To Clear Form Press Esc, Alt + C, or click here")
         Me.ClearForm.UseVisualStyleBackColor = True
         '
         'ExitButton
@@ -188,13 +188,8 @@ Partial Class AddressLabel
         Me.ExitButton.Size = New System.Drawing.Size(132, 81)
         Me.ExitButton.TabIndex = 9
         Me.ExitButton.Text = "E&xit"
-        Me.ClearToolTip.SetToolTip(Me.ExitButton, "ExitToolTip")
+        Me.ToolTip1.SetToolTip(Me.ExitButton, "To Exit press Alt + X, and click here")
         Me.ExitButton.UseVisualStyleBackColor = True
-        '
-        'DisplayLabToolTip
-        '
-        Me.DisplayLabToolTip.Tag = ""
-        Me.DisplayLabToolTip.ToolTipTitle = "To Display Label press Enter, alt+L, or click here"
         '
         'GroupBox1
         '
@@ -215,51 +210,13 @@ Partial Class AddressLabel
         Me.GroupBox1.Size = New System.Drawing.Size(434, 277)
         Me.GroupBox1.TabIndex = 13
         Me.GroupBox1.TabStop = False
-        Me.FieldsToolTip.SetToolTip(Me.GroupBox1, "FieldsToolTip")
-        '
-        'ClearToolTip
-        '
-        Me.ClearToolTip.ToolTipTitle = "To clear press Esc, alt+C, or click here"
-        '
-        'ExitToolTip
-        '
-        Me.ExitToolTip.ToolTipTitle = "To exit press alt+X, or click here"
-        '
-        'LabelToolTip
-        '
-        Me.LabelToolTip.ToolTipTitle = "This field will display your label once the fields have been filled and Display L" &
-    "abel is pressed"
-        '
-        'FieldsToolTip
-        '
-        Me.FieldsToolTip.ToolTipTitle = "Please fill in the fields below"
-        '
-        'AddrLabelLine2
-        '
-        Me.AddrLabelLine2.Location = New System.Drawing.Point(27, 63)
-        Me.AddrLabelLine2.Name = "AddrLabelLine2"
-        Me.AddrLabelLine2.Size = New System.Drawing.Size(642, 21)
-        Me.AddrLabelLine2.TabIndex = 14
-        Me.AddrLabelLine2.Text = "Your Street Address"
-        Me.LabelToolTip.SetToolTip(Me.AddrLabelLine2, "LabelToolTip")
-        '
-        'AddrLabelLine3
-        '
-        Me.AddrLabelLine3.Location = New System.Drawing.Point(27, 84)
-        Me.AddrLabelLine3.Name = "AddrLabelLine3"
-        Me.AddrLabelLine3.Size = New System.Drawing.Size(642, 21)
-        Me.AddrLabelLine3.TabIndex = 15
-        Me.AddrLabelLine3.Text = "City, State && Zip Code"
-        Me.LabelToolTip.SetToolTip(Me.AddrLabelLine3, "LabelToolTip")
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.AddrLabelLine1)
-        Me.GroupBox2.Controls.Add(Me.AddrLabelLine3)
-        Me.GroupBox2.Controls.Add(Me.AddrLabelLine2)
-        Me.GroupBox2.Location = New System.Drawing.Point(589, 86)
+        Me.GroupBox2.Controls.Add(Me.AddrLabel)
+        Me.GroupBox2.Location = New System.Drawing.Point(589, 82)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(658, 273)
+        Me.GroupBox2.Size = New System.Drawing.Size(658, 277)
         Me.GroupBox2.TabIndex = 16
         Me.GroupBox2.TabStop = False
         '
@@ -294,19 +251,13 @@ Partial Class AddressLabel
     Friend WithEvents CityLab As Label
     Friend WithEvents StateLab As Label
     Friend WithEvents ZipLab As Label
-    Friend WithEvents AddrLabelLine1 As Label
+    Friend WithEvents AddrLabel As Label
     Friend WithEvents State As MaskedTextBox
     Friend WithEvents ZipCode As MaskedTextBox
     Friend WithEvents DisplayLabel As Button
     Friend WithEvents ClearForm As Button
     Friend WithEvents ExitButton As Button
-    Friend WithEvents DisplayLabToolTip As ToolTip
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents ClearToolTip As ToolTip
-    Friend WithEvents ExitToolTip As ToolTip
-    Friend WithEvents LabelToolTip As ToolTip
-    Friend WithEvents FieldsToolTip As ToolTip
-    Friend WithEvents AddrLabelLine2 As Label
-    Friend WithEvents AddrLabelLine3 As Label
     Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents ToolTip1 As ToolTip
 End Class
