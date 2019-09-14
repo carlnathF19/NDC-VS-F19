@@ -1,4 +1,9 @@
-﻿Public Class State_Flag_Viewer
+﻿'Nathan Carlson
+'RCET0265
+'asg2-5
+'State Flag Viewer Program
+'https://github.com/carlnathF19/NDC-VS-F19/tree/master/assignments/ASG2-6
+Public Class State_Flag_Viewer
     'Each Button when clicked changes the resource that the Picture box points to.
     Private Sub AlaskaButton_Click(sender As Object, e As EventArgs) Handles AlaskaButton.Click
         PictureBox1.Image = My.Resources.Flag_of_Alaska

@@ -53,6 +53,7 @@ Partial Class AddressLabel
         Me.FirstName.Size = New System.Drawing.Size(248, 22)
         Me.FirstName.TabIndex = 0
         Me.ToolTip1.SetToolTip(Me.FirstName, "Pleaser Enter First Name")
+        Me.FirstName.UseWaitCursor = True
         '
         'LastName
         '
@@ -208,7 +209,7 @@ Partial Class AddressLabel
         Me.GroupBox1.Location = New System.Drawing.Point(107, 82)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(434, 277)
-        Me.GroupBox1.TabIndex = 13
+        Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         '
         'GroupBox2
