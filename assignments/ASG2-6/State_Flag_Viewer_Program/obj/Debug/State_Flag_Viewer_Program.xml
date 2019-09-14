@@ -1,0 +1,46 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+State_Flag_Viewer_Program
+</name>
+</assembly>
+<members>
+<member name="T:State_Flag_Viewer_Program.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:State_Flag_Viewer_Program.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:State_Flag_Viewer_Program.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:State_Flag_Viewer_Program.My.Resources.Resources.Flag_of_Alaska">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:State_Flag_Viewer_Program.My.Resources.Resources.Flag_of_Indiana">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:State_Flag_Viewer_Program.My.Resources.Resources.Flag_of_Utah">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:State_Flag_Viewer_Program.My.Resources.Resources.Flag_of_Vermont">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
