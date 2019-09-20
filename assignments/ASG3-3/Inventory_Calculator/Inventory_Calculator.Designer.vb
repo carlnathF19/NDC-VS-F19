@@ -34,13 +34,13 @@ Partial Class Inventory_Calculator
         Me.turnoverTextBox = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.userInputGroupBox = New System.Windows.Forms.GroupBox()
-        Me.calculationGroupBox = New System.Windows.Forms.GroupBox()
+        Me.outputGroupBox = New System.Windows.Forms.GroupBox()
         Me.calculateButton = New System.Windows.Forms.Button()
         Me.clearButton = New System.Windows.Forms.Button()
         Me.exitButton = New System.Windows.Forms.Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.userInputGroupBox.SuspendLayout()
-        Me.calculationGroupBox.SuspendLayout()
+        Me.outputGroupBox.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -142,17 +142,17 @@ Partial Class Inventory_Calculator
         Me.userInputGroupBox.TabIndex = 10
         Me.userInputGroupBox.TabStop = False
         '
-        'calculationGroupBox
+        'outputGroupBox
         '
-        Me.calculationGroupBox.Controls.Add(Me.turnoverTextBox)
-        Me.calculationGroupBox.Controls.Add(Me.Label4)
-        Me.calculationGroupBox.Controls.Add(Me.avgInventoryTextBox)
-        Me.calculationGroupBox.Controls.Add(Me.Label5)
-        Me.calculationGroupBox.Location = New System.Drawing.Point(310, 12)
-        Me.calculationGroupBox.Name = "calculationGroupBox"
-        Me.calculationGroupBox.Size = New System.Drawing.Size(292, 244)
-        Me.calculationGroupBox.TabIndex = 11
-        Me.calculationGroupBox.TabStop = False
+        Me.outputGroupBox.Controls.Add(Me.turnoverTextBox)
+        Me.outputGroupBox.Controls.Add(Me.Label4)
+        Me.outputGroupBox.Controls.Add(Me.avgInventoryTextBox)
+        Me.outputGroupBox.Controls.Add(Me.Label5)
+        Me.outputGroupBox.Location = New System.Drawing.Point(310, 12)
+        Me.outputGroupBox.Name = "outputGroupBox"
+        Me.outputGroupBox.Size = New System.Drawing.Size(292, 244)
+        Me.outputGroupBox.TabIndex = 11
+        Me.outputGroupBox.TabStop = False
         '
         'calculateButton
         '
@@ -184,22 +184,26 @@ Partial Class Inventory_Calculator
         Me.ToolTip1.SetToolTip(Me.exitButton, "To Exit, click here, or press Alt+X")
         Me.exitButton.UseVisualStyleBackColor = True
         '
+        'ToolTip1
+        '
+        Me.ToolTip1.AutomaticDelay = 250
+        '
         'Inventory_Calculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(617, 373)
         Me.Controls.Add(Me.exitButton)
         Me.Controls.Add(Me.clearButton)
         Me.Controls.Add(Me.calculateButton)
-        Me.Controls.Add(Me.calculationGroupBox)
+        Me.Controls.Add(Me.outputGroupBox)
         Me.Controls.Add(Me.userInputGroupBox)
         Me.Name = "Inventory_Calculator"
         Me.Text = "Inventory Calculator"
         Me.userInputGroupBox.ResumeLayout(False)
         Me.userInputGroupBox.PerformLayout()
-        Me.calculationGroupBox.ResumeLayout(False)
-        Me.calculationGroupBox.PerformLayout()
+        Me.outputGroupBox.ResumeLayout(False)
+        Me.outputGroupBox.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -215,7 +219,7 @@ Partial Class Inventory_Calculator
     Friend WithEvents turnoverTextBox As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents userInputGroupBox As GroupBox
-    Friend WithEvents calculationGroupBox As GroupBox
+    Friend WithEvents outputGroupBox As GroupBox
     Friend WithEvents calculateButton As Button
     Friend WithEvents clearButton As Button
     Friend WithEvents exitButton As Button
