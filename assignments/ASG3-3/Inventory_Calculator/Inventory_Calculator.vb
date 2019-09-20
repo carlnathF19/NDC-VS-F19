@@ -42,14 +42,20 @@ Public Class Inventory_Calculator
             beginningInventoryTextBox.Select()
             errorMessage = "Please enter only Whole Numbers" & vbNewLine & errorMessage
         End Try
+
         If errorMessage <> "" Then
             MessageBox.Show(errorMessage)
+
         End If
-        avgInv = Convert.ToDouble(startInv + endInv)
-        avgInv /= 2
-        turnover = costOfGoods / avgInv
-        avgInventoryTextBox.Text = avgInv.ToString("C")
-        turnoverTextBox.Text = turnover.ToString("F1")
+        If errorMessage = "" Then
+            avgInv = Convert.ToDouble(startInv + endInv)
+            avgInv /= 2
+            turnover = costOfGoods / avgInv
+            avgInventoryTextBox.Text = avgInv.ToString("C")
+            turnoverTextBox.Text = turnover.ToString("F1")
+        End If
+
+
 
 
     End Sub
