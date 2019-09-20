@@ -1,0 +1,12 @@
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-3\Inventory_Calculator\obj\Debug\Inventory_Calculator.vbprojAssemblyReference.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-3\Inventory_Calculator\obj\Debug\Inventory_Calculator.Inventory_Calculator.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-3\Inventory_Calculator\obj\Debug\Inventory_Calculator.Resources.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-3\Inventory_Calculator\obj\Debug\Inventory_Calculator.vbproj.GenerateResource.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-3\Inventory_Calculator\obj\Debug\Inventory_Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-3\Inventory_Calculator\bin\Debug\Inventory_Calculator.exe.config
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-3\Inventory_Calculator\bin\Debug\Inventory_Calculator.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-3\Inventory_Calculator\bin\Debug\Inventory_Calculator.pdb
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-3\Inventory_Calculator\bin\Debug\Inventory_Calculator.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-3\Inventory_Calculator\obj\Debug\Inventory_Calculator.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-3\Inventory_Calculator\obj\Debug\Inventory_Calculator.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-3\Inventory_Calculator\obj\Debug\Inventory_Calculator.pdb
