@@ -190,8 +190,10 @@ Partial Class Inventory_Calculator
         '
         'Inventory_Calculator
         '
+        Me.AcceptButton = Me.calculateButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.clearButton
         Me.ClientSize = New System.Drawing.Size(617, 373)
         Me.Controls.Add(Me.exitButton)
         Me.Controls.Add(Me.clearButton)
