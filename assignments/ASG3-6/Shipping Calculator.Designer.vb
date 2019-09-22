@@ -22,7 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.idTextBox = New System.Windows.Forms.TextBox()
+        Me.components = New System.ComponentModel.Container()
         Me.lbsTextBox = New System.Windows.Forms.TextBox()
         Me.ozTextBox = New System.Windows.Forms.TextBox()
         Me.shippingCostTextBox = New System.Windows.Forms.TextBox()
@@ -32,20 +32,15 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.userInputGroupBox = New System.Windows.Forms.GroupBox()
+        Me.shippingIdTextBox = New System.Windows.Forms.MaskedTextBox()
         Me.outputGroupBox = New System.Windows.Forms.GroupBox()
         Me.calculateButton = New System.Windows.Forms.Button()
         Me.clearButton = New System.Windows.Forms.Button()
         Me.exitButton = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.userInputGroupBox.SuspendLayout()
         Me.outputGroupBox.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'idTextBox
-        '
-        Me.idTextBox.Location = New System.Drawing.Point(13, 63)
-        Me.idTextBox.Name = "idTextBox"
-        Me.idTextBox.Size = New System.Drawing.Size(100, 22)
-        Me.idTextBox.TabIndex = 0
         '
         'lbsTextBox
         '
@@ -53,6 +48,7 @@ Partial Class Form1
         Me.lbsTextBox.Name = "lbsTextBox"
         Me.lbsTextBox.Size = New System.Drawing.Size(100, 22)
         Me.lbsTextBox.TabIndex = 1
+        Me.ToolTip1.SetToolTip(Me.lbsTextBox, "Enter the lbs as a whole number")
         '
         'ozTextBox
         '
@@ -60,6 +56,7 @@ Partial Class Form1
         Me.ozTextBox.Name = "ozTextBox"
         Me.ozTextBox.Size = New System.Drawing.Size(100, 22)
         Me.ozTextBox.TabIndex = 2
+        Me.ToolTip1.SetToolTip(Me.ozTextBox, "Enter the ozs as a whole number")
         '
         'shippingCostTextBox
         '
@@ -67,6 +64,7 @@ Partial Class Form1
         Me.shippingCostTextBox.Name = "shippingCostTextBox"
         Me.shippingCostTextBox.Size = New System.Drawing.Size(255, 22)
         Me.shippingCostTextBox.TabIndex = 3
+        Me.ToolTip1.SetToolTip(Me.shippingCostTextBox, "Press Calculate to show the shipping cost")
         '
         'Label1
         '
@@ -115,7 +113,7 @@ Partial Class Form1
         '
         'userInputGroupBox
         '
-        Me.userInputGroupBox.Controls.Add(Me.idTextBox)
+        Me.userInputGroupBox.Controls.Add(Me.shippingIdTextBox)
         Me.userInputGroupBox.Controls.Add(Me.lbsTextBox)
         Me.userInputGroupBox.Controls.Add(Me.ozTextBox)
         Me.userInputGroupBox.Controls.Add(Me.Label4)
@@ -127,6 +125,15 @@ Partial Class Form1
         Me.userInputGroupBox.Size = New System.Drawing.Size(317, 262)
         Me.userInputGroupBox.TabIndex = 9
         Me.userInputGroupBox.TabStop = False
+        '
+        'shippingIdTextBox
+        '
+        Me.shippingIdTextBox.Location = New System.Drawing.Point(13, 63)
+        Me.shippingIdTextBox.Mask = "&&&&&&"
+        Me.shippingIdTextBox.Name = "shippingIdTextBox"
+        Me.shippingIdTextBox.Size = New System.Drawing.Size(100, 22)
+        Me.shippingIdTextBox.TabIndex = 0
+        Me.ToolTip1.SetToolTip(Me.shippingIdTextBox, "Please Enter the Shipping ID code")
         '
         'outputGroupBox
         '
@@ -145,15 +152,18 @@ Partial Class Form1
         Me.calculateButton.Size = New System.Drawing.Size(388, 98)
         Me.calculateButton.TabIndex = 11
         Me.calculateButton.Text = "&Calculate"
+        Me.ToolTip1.SetToolTip(Me.calculateButton, "Press Enter, Alt + C or Click here to calculate")
         Me.calculateButton.UseVisualStyleBackColor = True
         '
         'clearButton
         '
+        Me.clearButton.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.clearButton.Location = New System.Drawing.Point(406, 280)
         Me.clearButton.Name = "clearButton"
         Me.clearButton.Size = New System.Drawing.Size(120, 98)
         Me.clearButton.TabIndex = 12
         Me.clearButton.Text = "C&lear"
+        Me.ToolTip1.SetToolTip(Me.clearButton, "Press Esc, Alt + C or click here to clear form")
         Me.clearButton.UseVisualStyleBackColor = True
         '
         'exitButton
@@ -163,7 +173,12 @@ Partial Class Form1
         Me.exitButton.Size = New System.Drawing.Size(120, 98)
         Me.exitButton.TabIndex = 13
         Me.exitButton.Text = "E&xit"
+        Me.ToolTip1.SetToolTip(Me.exitButton, "Press Alt + X or click here to Exit")
         Me.exitButton.UseVisualStyleBackColor = True
+        '
+        'ToolTip1
+        '
+        Me.ToolTip1.AutomaticDelay = 250
         '
         'Form1
         '
@@ -186,8 +201,6 @@ Partial Class Form1
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents idTextBox As TextBox
     Friend WithEvents lbsTextBox As TextBox
     Friend WithEvents ozTextBox As TextBox
     Friend WithEvents shippingCostTextBox As TextBox
@@ -201,4 +214,6 @@ Partial Class Form1
     Friend WithEvents calculateButton As Button
     Friend WithEvents clearButton As Button
     Friend WithEvents exitButton As Button
+    Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents shippingIdTextBox As MaskedTextBox
 End Class

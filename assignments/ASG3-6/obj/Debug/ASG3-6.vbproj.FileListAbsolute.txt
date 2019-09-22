@@ -1,0 +1,12 @@
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-6\bin\Debug\ASG3-6.exe.config
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-6\bin\Debug\ASG3-6.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-6\bin\Debug\ASG3-6.pdb
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-6\bin\Debug\ASG3-6.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-6\obj\Debug\ASG3-6.vbprojAssemblyReference.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-6\obj\Debug\ASG3_6.Resources.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-6\obj\Debug\ASG3_6.Form1.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-6\obj\Debug\ASG3-6.vbproj.GenerateResource.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-6\obj\Debug\ASG3-6.vbproj.CoreCompileInputs.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-6\obj\Debug\ASG3-6.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-6\obj\Debug\ASG3-6.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG3-6\obj\Debug\ASG3-6.pdb
