@@ -1,15 +1,27 @@
-﻿Option Strict On
+﻿'Nathan Carlson
+'RCET0265
+'asg4-6
+'Rental Form
+'https://github.com/carlnathF19/NDC-VS-F19/tree/master/assignments/Asg4-6
+
+Option Strict On
 Option Explicit On
 
 Public Class rentalForm
     Dim cost As Double = 0
     Dim miles As Double
     Dim days As Integer
-    Dim dayCharge As Integer
-    Dim validValues As Boolean
-    Private Sub ClearForm()
+    Dim totalMiles As Double '= 0
+    Dim totalMileCharge As Double '= 0
+    Dim totalDays As Integer '= 0
+    Dim totalDayCharge As Double '= 0
+    Dim totalDiscount As Double '= 0
+    Dim totalPaid As Double '= 0
+    Dim customers As Integer '= 0
 
-    End Sub
+    Dim validValues As Boolean
+    'This Sub sets the label text color to a visible color if validation returns true, to same as
+    'background color if false, so previous values aren't visible.
     Private Sub SetLabelForeColor()
         If validValues Then
             milesDrivenLabel.ForeColor = Color.White
@@ -26,6 +38,8 @@ Public Class rentalForm
         End If
 
     End Sub
+    'This subroutine checks to see if Discounts apply and modify the global variable cost.
+    'Cost and miles each update a global variable passed to the summary subroutine.
     Private Sub checkDiscount()
         Dim discountMultiplier As Double = 0
         Dim discountAmount As Double = 0
@@ -36,21 +50,31 @@ Public Class rentalForm
             discountMultiplier += 0.03
         End If
         discountAmount = discountMultiplier * cost
+        'Adds to totals summary
+        totalDiscount += discountAmount
         discountLabel.Text = discountAmount.ToString("C")
         cost = (1 - discountMultiplier) * cost
     End Sub
-
+    'This subroutine checks each value, starting with the last in the Tab Index and ending with the 
+    'first, if any returns false, then the last one to return false takes focus.  Also uses tries
+    'to see if values parse correctly.
     Private Sub ValidateFields()
-        Dim summary As String
+        Dim summaryLocal As String
+        Dim zipCodeValid As Boolean = True
 
-        summary = ""
+        summaryLocal = ""
         validValues = False
         Try
             days = Integer.Parse(daysTextBox.Text)
+            If days > 45 Or days < 1 Then
+                MessageBox.Show("Please enter valid number of days, (0 to 45)")
+                daysTextBox.Select()
+            End If
         Catch ex As Exception
-
+            MessageBox.Show("Please enter valid number of days, (0 to 45)")
+            daysTextBox.Select()
         End Try
-        '[review code]
+
         Try
             miles = Double.Parse(endOdometerTextBox.Text) - Double.Parse(beginOdometerTextBox.Text)
         Catch ex As Exception
@@ -58,43 +82,53 @@ Public Class rentalForm
             beginOdometerTextBox.Select()
         End Try
 
-        If zipCodeTextBox.Text.Length() <> 5 Then
-            summary = "Please enter a 5 digit zip code." & vbNewLine & summary
+        Try
+            Integer.Parse(zipCodeTextBox.Text)
+        Catch ex As Exception
+            zipCodeValid = False
+        End Try
+
+        If zipCodeTextBox.Text.Length() <> 5 Or zipCodeValid = False Then
+            summaryLocal = "Please enter a 5 digit zip code." & vbNewLine & summaryLocal
             zipCodeTextBox.Select()
         End If
 
         If stateTextBox.Text.Length() <> 2 Then
-            summary = "Please enter a state abbreviation." & vbNewLine & summary
+            summaryLocal = "Please enter a state abbreviation." & vbNewLine & summaryLocal
             stateTextBox.Select()
         End If
 
         If cityTextBox.Text.Length() = 0 Then
-            summary = "Please enter a City." & vbNewLine & summary
+            summaryLocal = "Please enter a City." & vbNewLine & summaryLocal
             cityTextBox.Select()
         End If
 
         If addressTextBox.Text.Length() = 0 Then
-            summary = "Please enter an Address." & vbNewLine & summary
+            summaryLocal = "Please enter an Address." & vbNewLine & summaryLocal
             addressTextBox.Select()
         End If
 
         If nameTextBox.Text.Length() = 0 Then
-            summary = "Please enter a Name." & vbNewLine & summary
+            summaryLocal = "Please enter a Name." & vbNewLine & summaryLocal
             nameTextBox.Select()
         End If
 
-        If summary <> "" Then
-            MessageBox.Show(summary)
+        If summaryLocal <> "" Then
+            MessageBox.Show(summaryLocal)
         Else validValues = True
         End If
     End Sub
-
+    'This subroutine exits if a yes no message box receives a yes click
     Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles exitButton.Click
-        Me.Close()
+        If MessageBox.Show("Do you want to exit?", "Exit?", MessageBoxButtons.YesNo) _
+            = Windows.Forms.DialogResult.Yes Then
+            Me.Close()
+        End If
+
     End Sub
 
     Private Sub CalculateButton_Click(sender As Object, e As EventArgs) Handles calculateButton.Click
-
+        Dim dayCharge As Integer
         ValidateFields()
         SetLabelForeColor()
 
@@ -112,13 +146,19 @@ Public Class rentalForm
             If kilometersRadioButton.Checked = True Then
                 miles *= 0.62
             End If
+
             milesDrivenLabel.Text = Convert.ToString(miles)
+            'Adds the total miles to the summary sub through global variable.
+            totalMiles += miles
+
             If miles >= 201 And miles <= 500 Then
                 cost = (miles - 200) * 0.12
             ElseIf miles > 500 Then
                 'If miles > 500 then 300 of those miles (500-200) are at the .12 price
                 cost = (miles - 500) * 0.1 + (300 * 0.12)
             End If
+
+            totalMileCharge += cost
 
             'cost += days*15 did not work, so a local variable is declared, and then passed 
             'to cost.  Programattically, cost += should work, but it didn't?
@@ -127,36 +167,50 @@ Public Class rentalForm
 
             mileChargeLabel.Text = cost.ToString("C")
             dayCharge = days * 15
+            'Adds to totals summary
+            totalDays += days
+            totalDayCharge += dayCharge
             costLocal = cost + dayCharge
             cost = costLocal
             dayChargeLabel.Text = dayCharge.ToString("C")
 
             checkDiscount()
-
+            'Adds to totals summary
+            totalPaid += cost
+            customers += 1
             youOweLabel.Text = cost.ToString("C")
             Console.WriteLine(cost)
+            summaryButton.Enabled = True
         End If
 
     End Sub
 
-    'Sub testValidateString()
-    '    Dim mystring As String
-    '    mystring = "Hello"
-    '    Console.WriteLine(mystring)
-    '    Console.WriteLine(mystring.GetType.Name)
-    '    ValidateString(mystring, "String", isValid)
-    'End Sub
-    'Private Sub ValidateString(ByVal testString As String, ByVal testType As String, ByRef isValid As Boolean)
-    '    'validate string to see if it is of type
-    '    If testString.GetType.Name = testType Then
-    '        isValid = True
-    '    Else
-    '        isValid = False
-    '    End If
-    'End Sub
+    Private Sub SummaryButton_Click(sender As Object, e As EventArgs) Handles summaryButton.Click
+        Dim totalsSummary As String
+        totalsSummary = "Distance Driven = " & totalMiles & vbNewLine &
+            "Mileage Charge = " & totalMileCharge.ToString("C") & vbNewLine &
+            "Total Days Rented = " & totalDays & vbNewLine &
+            "Total Day Charge = " & totalDayCharge.ToString("C") & vbNewLine &
+            "Total Discounts = " & totalDiscount.ToString("C") & vbNewLine &
+            "Total Paid = " & totalPaid.ToString("C") & vbNewLine &
+            "Customers = " & customers
+        MessageBox.Show(totalsSummary)
 
-    'Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles clearButton.Click
-    '    testValidateString()
-    'End Sub
+    End Sub
+
+    Private Sub RentalForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        summaryButton.Enabled = False
+    End Sub
+
+    Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles clearButton.Click
+        nameTextBox.Clear()
+        addressTextBox.Clear()
+        cityTextBox.Clear()
+        stateTextBox.Clear()
+        zipCodeTextBox.Clear()
+        beginOdometerTextBox.Clear()
+        endOdometerTextBox.Clear()
+        daysTextBox.Clear()
+    End Sub
 
 End Class
