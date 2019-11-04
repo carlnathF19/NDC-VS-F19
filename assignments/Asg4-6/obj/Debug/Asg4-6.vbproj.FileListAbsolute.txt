@@ -25,7 +25,6 @@ C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg4-6\obj\Debug\Asg4-6.v
 C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg4-6\obj\Debug\Asg4_6.Resources.resources
 C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg4-6\obj\Debug\Asg4_6.rentalForm.resources
 C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg4-6\obj\Debug\Asg4-6.vbproj.GenerateResource.cache
-C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg4-6\obj\Debug\Asg4-6.vbproj.CoreCompileInputs.cache
 C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg4-6\obj\Debug\Asg4-6.exe
 C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg4-6\obj\Debug\Asg4-6.xml
 C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg4-6\obj\Debug\Asg4-6.pdb

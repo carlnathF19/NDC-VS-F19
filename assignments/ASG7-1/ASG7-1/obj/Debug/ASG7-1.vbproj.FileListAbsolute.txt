@@ -1,0 +1,11 @@
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG7-1\ASG7-1\bin\Debug\ASG7-1.exe.config
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG7-1\ASG7-1\bin\Debug\ASG7-1.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG7-1\ASG7-1\bin\Debug\ASG7-1.pdb
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG7-1\ASG7-1\bin\Debug\ASG7-1.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG7-1\ASG7-1\obj\Debug\ASG7-1.vbprojAssemblyReference.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG7-1\ASG7-1\obj\Debug\ASG7_1.Form1.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG7-1\ASG7-1\obj\Debug\ASG7_1.Resources.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG7-1\ASG7-1\obj\Debug\ASG7-1.vbproj.GenerateResource.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG7-1\ASG7-1\obj\Debug\ASG7-1.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG7-1\ASG7-1\obj\Debug\ASG7-1.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG7-1\ASG7-1\obj\Debug\ASG7-1.pdb
