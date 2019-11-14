@@ -63,7 +63,7 @@ Partial Class Form1
         Me.MainMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.MainMenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.MainMenuStrip.Name = "MainMenuStrip"
-        Me.MainMenuStrip.Size = New System.Drawing.Size(810, 28)
+        Me.MainMenuStrip.Size = New System.Drawing.Size(810, 30)
         Me.MainMenuStrip.TabIndex = 2
         Me.MainMenuStrip.Text = "MenuStrip"
         '
@@ -71,7 +71,7 @@ Partial Class Form1
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(46, 24)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(46, 26)
         Me.FileToolStripMenuItem.Text = "&File"
         '
         'ExitToolStripMenuItem
@@ -84,7 +84,7 @@ Partial Class Form1
         '
         Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CalculateToolStripMenuItem, Me.ClearToolStripMenuItem, Me.SummaryToolStripMenuItem})
         Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
-        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(49, 24)
+        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(49, 26)
         Me.EditToolStripMenuItem.Text = "&Edit"
         '
         'CalculateToolStripMenuItem
@@ -109,7 +109,7 @@ Partial Class Form1
         '
         Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(55, 24)
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(55, 26)
         Me.HelpToolStripMenuItem.Text = "&Help"
         '
         'AboutToolStripMenuItem
@@ -244,7 +244,7 @@ Partial Class Form1
         Me.Label7.Size = New System.Drawing.Size(504, 51)
         Me.Label7.TabIndex = 16
         Me.Label7.Text = "Please enter the Stock Code with it's Monday, Tuesday, and Wednesday price." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Calc" &
-    "ulate, Clear, and Summary are located in the Edit menu" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " "
+    "ulate, Clear, and Summary are located in the Edit menu, or Right Click" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " "
         '
         'ContextMenuStrip1
         '

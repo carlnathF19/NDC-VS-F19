@@ -1,0 +1,11 @@
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-1\Asg8-1\bin\Debug\Asg8-1.exe.config
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-1\Asg8-1\bin\Debug\Asg8-1.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-1\Asg8-1\bin\Debug\Asg8-1.pdb
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-1\Asg8-1\bin\Debug\Asg8-1.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-1\Asg8-1\obj\Debug\Asg8-1.vbprojAssemblyReference.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-1\Asg8-1\obj\Debug\Asg8_1.Resources.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-1\Asg8-1\obj\Debug\Asg8_1.RandomNumGenerator.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-1\Asg8-1\obj\Debug\Asg8-1.vbproj.GenerateResource.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-1\Asg8-1\obj\Debug\Asg8-1.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-1\Asg8-1\obj\Debug\Asg8-1.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-1\Asg8-1\obj\Debug\Asg8-1.pdb
