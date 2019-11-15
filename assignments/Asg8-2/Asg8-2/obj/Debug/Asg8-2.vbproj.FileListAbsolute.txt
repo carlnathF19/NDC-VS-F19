@@ -1,0 +1,11 @@
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-2\Asg8-2\bin\Debug\Asg8-2.exe.config
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-2\Asg8-2\bin\Debug\Asg8-2.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-2\Asg8-2\bin\Debug\Asg8-2.pdb
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-2\Asg8-2\bin\Debug\Asg8-2.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-2\Asg8-2\obj\Debug\Asg8-2.vbprojAssemblyReference.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-2\Asg8-2\obj\Debug\Asg8_2.Form1.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-2\Asg8-2\obj\Debug\Asg8_2.Resources.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-2\Asg8-2\obj\Debug\Asg8-2.vbproj.GenerateResource.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-2\Asg8-2\obj\Debug\Asg8-2.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-2\Asg8-2\obj\Debug\Asg8-2.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\Asg8-2\Asg8-2\obj\Debug\Asg8-2.pdb

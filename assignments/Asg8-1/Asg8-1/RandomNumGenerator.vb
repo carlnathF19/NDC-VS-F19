@@ -1,4 +1,10 @@
-﻿Option Explicit On
+﻿'Nathan Carlson
+'RCET0265
+'asg8-1
+'Random Number generator
+'https://github.com/carlnathF19/NDC-VS-F19/tree/master/assignments/Asg8-1
+
+Option Explicit On
 Option Strict On
 
 Public Class RandomNumGenerator
