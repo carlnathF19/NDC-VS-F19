@@ -1,0 +1,11 @@
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG10-1\Asg 10-1\bin\Debug\Asg 10-1.exe.config
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG10-1\Asg 10-1\bin\Debug\Asg 10-1.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG10-1\Asg 10-1\bin\Debug\Asg 10-1.pdb
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG10-1\Asg 10-1\bin\Debug\Asg 10-1.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG10-1\Asg 10-1\obj\Debug\Asg 10-1.vbprojAssemblyReference.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG10-1\Asg 10-1\obj\Debug\Asg_10_1.StansGrocery.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG10-1\Asg 10-1\obj\Debug\Asg_10_1.Resources.resources
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG10-1\Asg 10-1\obj\Debug\Asg 10-1.vbproj.GenerateResource.cache
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG10-1\Asg 10-1\obj\Debug\Asg 10-1.exe
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG10-1\Asg 10-1\obj\Debug\Asg 10-1.xml
+C:\Users\carri\Documents\GitHub\NDC-VS-F19\assignments\ASG10-1\Asg 10-1\obj\Debug\Asg 10-1.pdb

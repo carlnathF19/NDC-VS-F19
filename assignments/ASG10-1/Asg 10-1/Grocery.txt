@@ -1,0 +1,15 @@
+$$Apple
+$$Banana
+$$Orange
+$$Chicken
+$$Pizza
+$$Arugula
+$$Steak
+$$Toast
+$$Peep
+$$Hamburger
+$$Candy
+$$Wonka bar
+$$Brocolli
+$$Spinach
+$$Oreo
